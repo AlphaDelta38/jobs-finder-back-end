@@ -1,0 +1,37 @@
+{
+  "name": "jobs-finder",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Back-end test case for ITeam company",
+  "keywords": [
+    "jobs",
+    "jobs finder",
+    "search job"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaDelta38/jobs-finder-back-end.git"
+  },
+  "author": "Kiril Morozov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaDelta38/jobs-finder-back-end/issues"
+  },
+  "homepage": "https://github.com/AlphaDelta38/jobs-finder-back-end#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
