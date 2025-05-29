@@ -10,8 +10,8 @@ const app = express();
 app.use(express.json());
 
 const allowedOrigins = [
-    'https://jobs-finder-front-end-puob.vercel.app',
-    'https://jobs-finder-front-end-puob-mu824ck8g-kirils-projects-63149d58.vercel.app',
+    'https://jobs-finder-front-end-jqew.vercel.app/jobs',
+    'jobs-finder-front-end-jqew-hvwvtuaql-kirils-projects-63149d58.vercel.app',
     'http://localhost:3000'
 ];
 
