@@ -2,11 +2,22 @@ import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
+import cors from 'cors';
 
 dotenv.config()
 
 const app = express();
 app.use(express.json());
+
+const allowedOrigins = [
+    'https://jobs-finder-front-end-puob-mu824ck8g-kirils-projects-63149d58.vercel.app',
+    'http://localhost:3000'
+];
+
+app.use(cors({
+    origin: allowedOrigins,
+    credentials: true,
+}));
 
 connectDB()
 
